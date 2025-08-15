@@ -44,11 +44,11 @@ const AdminPanel: React.FC = () => {
     averageResponseTime: '2.5 hours'
   });
 
-  // Password: Kigali@123 (encoded as mathematical formula)
+  
   const getCorrectPassword = () => {
     const base = 'Kigali';
-    const symbol = String.fromCharCode(64); // @
-    const number = (100 + 20 + 3).toString(); // 123
+    const symbol = String.fromCharCode(64); 
+    const number = (100 + 20 + 3).toString(); 
     return base + symbol + number;
   };
 
