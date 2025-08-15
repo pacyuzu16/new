@@ -1,0 +1,6 @@
+// filepath: vercel.json
+{
+  "rewrites": [
+    { "source": "/admin", "destination": "/admin.html" }
+  ]
+}
