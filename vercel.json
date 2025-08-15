@@ -1,5 +1,3 @@
-// filepath: vercel.json
-// fasdj
 {
   "rewrites": [
     { "source": "/admin", "destination": "/admin.html" }
